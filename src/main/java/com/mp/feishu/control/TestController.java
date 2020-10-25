@@ -41,6 +41,7 @@ public class TestController {
         return "test demo ";
     }
 
+
     public static void testHutoolGet() {
         String getResult = HttpUtil
                 .createGet("https://tcc.taobao.com/cc/json/mobile_tel_segment.htm?tel=15677386236")
@@ -62,5 +63,10 @@ public class TestController {
                 .execute()
                 .body();
         log.info("postResult:" + postResult);
+    }
+
+    @GetMapping("/")
+    public String test1(){
+        return "h2 test demo";
     }
 }

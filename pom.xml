@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.mp</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>feishu</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>feishu</name>
     <description>Spring Boot feishu</description>
